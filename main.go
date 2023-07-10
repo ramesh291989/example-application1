@@ -1,0 +1,14 @@
+package infracube_go_app
+
+import (
+	"fmt"
+	"log"
+	"net/http"
+)
+
+func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "Hello World.")
+	})
+	log.Fatalf("error: %s", http.ListenAndServe(":8080", nil))
+}
