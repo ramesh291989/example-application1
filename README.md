@@ -1,0 +1,1 @@
+# infracube-go-app
