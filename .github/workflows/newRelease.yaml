@@ -2,7 +2,7 @@ name: new Release
 on:
   push:
     tags:
-      - V*
+      - v*
 
 jobs:
   build:
