@@ -1,3 +1,3 @@
 # infracube-go-app
 
-## Updated new versions
+## Updated new version
